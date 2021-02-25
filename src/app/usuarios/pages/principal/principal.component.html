@@ -1,0 +1,18 @@
+<div class="row mt-3">
+    <div class="col-sm-3">
+        <h4>Menú</h4>
+        <hr>
+        <ul class="list-group">
+            <li *ngFor="let item of menuPrincipal">
+                <a  class="list-group-item"
+                    [routerLink]="item.ruta"
+                    routerLinkActive="active">
+                    {{item.texto}}
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-9">
+        <router-outlet></router-outlet>
+    </div>
+</div>

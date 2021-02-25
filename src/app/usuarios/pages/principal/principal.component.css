@@ -1,0 +1,8 @@
+.row{
+    margin-right: 0;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}

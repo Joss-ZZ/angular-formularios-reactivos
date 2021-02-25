@@ -1,0 +1,7 @@
+.bienvenido{
+    height: calc(100vh - 3.8em);
+    background: #E6E8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

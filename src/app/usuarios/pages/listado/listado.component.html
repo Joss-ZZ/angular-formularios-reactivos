@@ -1,0 +1,16 @@
+<h4 class="text-center">Lista de usuarios</h4>
+<hr>
+
+<div class="cargando" *ngIf="!usuarios; else divUsuarios">
+    Cargando...
+</div>
+
+
+<ng-template #divUsuarios>
+    <div class="card-group">
+        <app-usuario-card
+                           *ngFor="let usuario of usuarios"
+                           [usuario]="usuario">
+        </app-usuario-card>
+    </div>
+</ng-template>

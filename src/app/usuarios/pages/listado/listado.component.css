@@ -1,0 +1,12 @@
+app-usuario-card{
+  margin-right: 1em;
+}
+
+.cargando {
+  height: calc(100vh - 3.8em);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+}
